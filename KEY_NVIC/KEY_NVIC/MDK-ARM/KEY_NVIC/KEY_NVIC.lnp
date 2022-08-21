@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"key_nvic\startup_stm32f407xx.o"
+"key_nvic\main.o"
+"key_nvic\gpio.o"
+"key_nvic\usart.o"
+"key_nvic\stm32f4xx_it.o"
+"key_nvic\stm32f4xx_hal_msp.o"
+"key_nvic\stm32f4xx_hal_tim.o"
+"key_nvic\stm32f4xx_hal_tim_ex.o"
+"key_nvic\stm32f4xx_hal_uart.o"
+"key_nvic\stm32f4xx_hal_rcc.o"
+"key_nvic\stm32f4xx_hal_rcc_ex.o"
+"key_nvic\stm32f4xx_hal_flash.o"
+"key_nvic\stm32f4xx_hal_flash_ex.o"
+"key_nvic\stm32f4xx_hal_flash_ramfunc.o"
+"key_nvic\stm32f4xx_hal_gpio.o"
+"key_nvic\stm32f4xx_hal_dma_ex.o"
+"key_nvic\stm32f4xx_hal_dma.o"
+"key_nvic\stm32f4xx_hal_pwr.o"
+"key_nvic\stm32f4xx_hal_pwr_ex.o"
+"key_nvic\stm32f4xx_hal_cortex.o"
+"key_nvic\stm32f4xx_hal.o"
+"key_nvic\stm32f4xx_hal_exti.o"
+"key_nvic\system_stm32f4xx.o"
+--strict --scatter "KEY_NVIC\KEY_NVIC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KEY_NVIC.map" -o KEY_NVIC\KEY_NVIC.axf
