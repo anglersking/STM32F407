@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"usart_interupt__version_callback\startup_stm32f407xx.o"
+"usart_interupt__version_callback\main.o"
+"usart_interupt__version_callback\gpio.o"
+"usart_interupt__version_callback\usart.o"
+"usart_interupt__version_callback\stm32f4xx_it.o"
+"usart_interupt__version_callback\stm32f4xx_hal_msp.o"
+"usart_interupt__version_callback\stm32f4xx_hal_tim.o"
+"usart_interupt__version_callback\stm32f4xx_hal_tim_ex.o"
+"usart_interupt__version_callback\stm32f4xx_hal_uart.o"
+"usart_interupt__version_callback\stm32f4xx_hal_rcc.o"
+"usart_interupt__version_callback\stm32f4xx_hal_rcc_ex.o"
+"usart_interupt__version_callback\stm32f4xx_hal_flash.o"
+"usart_interupt__version_callback\stm32f4xx_hal_flash_ex.o"
+"usart_interupt__version_callback\stm32f4xx_hal_flash_ramfunc.o"
+"usart_interupt__version_callback\stm32f4xx_hal_gpio.o"
+"usart_interupt__version_callback\stm32f4xx_hal_dma_ex.o"
+"usart_interupt__version_callback\stm32f4xx_hal_dma.o"
+"usart_interupt__version_callback\stm32f4xx_hal_pwr.o"
+"usart_interupt__version_callback\stm32f4xx_hal_pwr_ex.o"
+"usart_interupt__version_callback\stm32f4xx_hal_cortex.o"
+"usart_interupt__version_callback\stm32f4xx_hal.o"
+"usart_interupt__version_callback\stm32f4xx_hal_exti.o"
+"usart_interupt__version_callback\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "USART_Interupt__version_callback\USART_Interupt__version_callback.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART_Interupt__version_callback.map" -o USART_Interupt__version_callback\USART_Interupt__version_callback.axf
